@@ -1,0 +1,36 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\dspproj\hellosimple\"
+ProjectType=Executable
+CPUFamily=TMS320C24XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"
+Source="cvectors.asm"
+Source="hmain.c"
+Source="2407_cmd.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"$(Proj_dir)\Debug" -d"_DEBUG" -v2xx
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"$(Proj_dir)\Release" -v2xx
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\hellosimple.map" -o".\Debug\hellosimple.out" -w -x -v2
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\hellosimple.map" -o".\Release\hellosimple.out" -w -x -v2
+
+["2407_cmd.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["2407_cmd.cmd" Settings: "Release"]
+LinkOrder=1
+

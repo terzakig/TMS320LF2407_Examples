@@ -1,0 +1,20 @@
+----------------------------  AsmFunc.pjt - Debug  ----------------------------
+[afmain.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -k -q -ss -fr"C:/dspproj/AsmFunc/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "afmain.c"
+[afmain.c]
+
+[convasm.asm] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -k -q -ss -fr"C:/dspproj/AsmFunc/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "convasm.asm"
+<convasm.asm>
+
+[cvectors.asm] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -k -q -ss -fr"C:/dspproj/AsmFunc/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "cvectors.asm"
+<cvectors.asm>
+
+[Linking...] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -@"Debug.lkf"
+<Linking>
+TMS320C24xx COFF Linker                 Version 7.04
+Copyright (c) 1987-2003  Texas Instruments Incorporated 
+
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use -stack option to change the default size.
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

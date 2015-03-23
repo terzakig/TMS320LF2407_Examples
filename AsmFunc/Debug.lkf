@@ -1,0 +1,6 @@
+-z -c -m"./Debug/AsmFunc.map" -o"./Debug/AsmFunc.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\AsmFunc\2407_cmd.cmd"
+"C:\dspproj\AsmFunc\Debug\afmain.obj"
+"C:\dspproj\AsmFunc\Debug\convasm.obj"
+"C:\dspproj\AsmFunc\Debug\cvectors.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

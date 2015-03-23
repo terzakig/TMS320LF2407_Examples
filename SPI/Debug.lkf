@@ -1,0 +1,11 @@
+-z -c -m"./Debug/SPI.map" -o"./Debug/SPI.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\SPI\2407_cmd.cmd"
+"C:\dspproj\SPI\Debug\cvectors.obj"
+"C:\dspproj\SPI\Debug\DSP24_Core.obj"
+"C:\dspproj\SPI\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\SPI\Debug\DSP24_Gpio.obj"
+"C:\dspproj\SPI\Debug\DSP24_Spi.obj"
+"C:\dspproj\SPI\Debug\DSP24_Sys.obj"
+"C:\dspproj\SPI\Debug\SPIFunc.obj"
+"C:\dspproj\SPI\Debug\spimain.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

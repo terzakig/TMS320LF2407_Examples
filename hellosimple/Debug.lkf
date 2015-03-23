@@ -1,0 +1,5 @@
+-z -c -m"./Debug/hellosimple.map" -o"./Debug/hellosimple.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\hellosimple\2407_cmd.cmd"
+"C:\dspproj\hellosimple\Debug\cvectors.obj"
+"C:\dspproj\hellosimple\Debug\hmain.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

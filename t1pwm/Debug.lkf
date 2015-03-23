@@ -1,0 +1,11 @@
+-z -c -m"./Debug/t1pwm.map" -o"./Debug/t1pwm.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\t1pwm\2407_cmd.cmd"
+"C:\dspproj\t1pwm\Debug\cvectors.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_Core.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_Ev.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_Gpio.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_Sys.obj"
+"C:\dspproj\t1pwm\Debug\DSP24_Timer1.obj"
+"C:\dspproj\t1pwm\Debug\T1main.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

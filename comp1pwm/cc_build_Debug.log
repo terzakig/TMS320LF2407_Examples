@@ -1,0 +1,35 @@
+----------------------------  comp1pwm.pjt - Debug  ----------------------------
+[comp1main.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "comp1main.c"
+[comp1main.c]
+
+[cvectors.asm] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "cvectors.asm"
+<cvectors.asm>
+
+[DSP24_Comp1.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Comp1.c"
+[dsp24_comp1.c]
+
+[DSP24_Core.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Core.c"
+[dsp24_core.c]
+
+[DSP24_DefaultISR.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_DefaultISR.c"
+[dsp24_defaultisr.c]
+
+[DSP24_Ev.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Ev.c"
+[dsp24_ev.c]
+
+[DSP24_Gpio.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Gpio.c"
+[dsp24_gpio.c]
+
+[DSP24_Sys.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/comp1pwm/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Sys.c"
+[dsp24_sys.c]
+
+[Linking...] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -@"Debug.lkf"
+<Linking>
+TMS320C24xx COFF Linker                 Version 7.04
+Copyright (c) 1987-2003  Texas Instruments Incorporated 
+
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use -stack option to change the default size.
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

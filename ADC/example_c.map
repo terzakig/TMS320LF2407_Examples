@@ -1,0 +1,115 @@
+******************************************************************************
+TMS320C1x/C2x/C2xx/C5x COFF Linker           Version 7.00                   
+******************************************************************************
+>> Linked Tue Oct 14 16:34:08 2003
+
+OUTPUT FILE NAME:   <example_c.out>
+ENTRY POINT SYMBOL: "_c_int0"  address: 000088ce
+
+
+MEMORY CONFIGURATION
+
+           name     origin    length      used    attributes    fill
+         --------  --------  ---------  --------  ----------  --------
+PAGE 0: VECS      00000000  000000040  00000040     RWIX      
+         FLASH     00000044  000007fbc  00000000     RWIX      
+         EXTPROG   00008800  000007800  00000257     RWIX      
+
+PAGE 1: B2        00000060  000000020  00000000     RWIX      
+         B0        00000200  000000100  00000000     RWIX      
+         B1        00000300  000000100  00000000     RWIX      
+         SARAM     00000800  000000800  00000400     RWIX      
+         EXTDATA   00008000  000008000  00000023     RWIX      
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.text      0    00008800    0000024d     
+                  00008800    000000c2     fun.obj (.text)
+                  000088c2    00000000     cvectors.obj (.text)
+                  000088c2    0000000c     main.obj (.text)
+                  000088ce    00000027     rts2xx.lib : boot.obj (.text)
+                  000088f5    00000044                : f_ftou.obj (.text)
+                  00008939    0000007c                : f_mul.obj (.text)
+                  000089b5    00000019                : f_utof.obj (.text)
+                  000089ce    0000002e                : saverest.obj (.text)
+                  000089fc    00000050                : exit.obj (.text)
+                  00008a4c    00000001                : f_error.obj (.text)
+
+.cinit     0    00008a4d    0000000a     
+                  00008a4d    00000003     fun.obj (.cinit)
+                  00008a50    00000006     rts2xx.lib : exit.obj (.cinit)
+                  00008a56    00000001     --HOLE-- [fill = 0000]
+
+.const     1    00000300    00000000     UNINITIALIZED
+
+.switch    0    00008800    00000000     UNINITIALIZED
+
+.bss       1    00008000    00000023     UNINITIALIZED
+                  00008000    00000022     rts2xx.lib : exit.obj (.bss)
+                  00008022    00000000                : boot.obj (.bss)
+                  00008022    00000000                : f_ftou.obj (.bss)
+                  00008022    00000000     main.obj (.bss)
+                  00008022    00000000     cvectors.obj (.bss)
+                  00008022    00000000     rts2xx.lib : f_mul.obj (.bss)
+                  00008022    00000000                : f_error.obj (.bss)
+                  00008022    00000000                : saverest.obj (.bss)
+                  00008022    00000000                : f_utof.obj (.bss)
+                  00008022    00000001     fun.obj (.bss)
+
+.stack     1    00000800    00000400     UNINITIALIZED
+                  00000800    00000000     rts2xx.lib : boot.obj (.stack)
+
+.sysmem    1    00000300    00000000     UNINITIALIZED
+
+vectors    0    00000000    00000040     
+                  00000000    00000040     cvectors.obj (vectors)
+
+.data      1    00000000    00000000     UNINITIALIZED
+                  00000000    00000000     fun.obj (.data)
+                  00000000    00000000     rts2xx.lib : f_error.obj (.data)
+                  00000000    00000000                : exit.obj (.data)
+                  00000000    00000000                : saverest.obj (.data)
+                  00000000    00000000                : f_utof.obj (.data)
+                  00000000    00000000                : f_mul.obj (.data)
+                  00000000    00000000                : f_ftou.obj (.data)
+                  00000000    00000000                : boot.obj (.data)
+                  00000000    00000000     cvectors.obj (.data)
+                  00000000    00000000     main.obj (.data)
+
+
+GLOBAL SYMBOLS
+
+address  name                             address  name
+-------- ----                             -------- ----
+00008000 .bss                             00000000 edata
+00000000 .data                            00000000 .data
+00008800 .text                            00000400 __STACK_SIZE
+00008a49 C$$EXIT                          00008000 .bss
+000088f5 F$$FTOU                          00008001 __cleanup_ptr
+00008939 F$$MUL                           00008022 _pwm_half_per
+000089b5 F$$UTOF                          00008023 end
+000089e6 I$$REST                          00008800 _sys_ini
+000089ce I$$SAVE                          00008800 .text
+00000400 __STACK_SIZE                     0000883f _pwm_init
+00008001 __cleanup_ptr                    0000887c _inter2_isr
+00008a49 _abort                           000088c2 _main
+00008a2a _atexit                          000088ce _c_int0
+000088ce _c_int0                          000088f5 F$$FTOU
+000089fc _exit                            00008939 F$$MUL
+00008a4c _f$$error                        000089b5 F$$UTOF
+0000887c _inter2_isr                      000089ce I$$SAVE
+000088c2 _main                            000089e6 I$$REST
+00008022 _pwm_half_per                    000089fc _exit
+0000883f _pwm_init                        00008a2a _atexit
+00008800 _sys_ini                         00008a49 C$$EXIT
+00008a4d cinit                            00008a49 _abort
+00000000 edata                            00008a4c _f$$error
+00008023 end                              00008a4d cinit
+00008a4d etext                            00008a4d etext
+ffffffff pinit                            ffffffff pinit
+
+[26 symbols]

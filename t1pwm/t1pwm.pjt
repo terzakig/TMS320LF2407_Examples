@@ -1,0 +1,42 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\dspproj\t1pwm\"
+ProjectType=Executable
+CPUFamily=TMS320C24XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"
+Source="cvectors.asm"
+Source="DSP24_Core.c"
+Source="DSP24_DefaultISR.c"
+Source="DSP24_Ev.c"
+Source="DSP24_Gpio.c"
+Source="DSP24_Sys.c"
+Source="DSP24_Timer1.c"
+Source="T1main.c"
+Source="2407_cmd.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"$(Proj_dir)\Debug" -d"_DEBUG" -v2xx
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"$(Proj_dir)\Release" -v2xx
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\t1pwm.map" -o".\Debug\t1pwm.out" -w -x -v2
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\t1pwm.map" -o".\Release\t1pwm.out" -w -x -v2
+
+["2407_cmd.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["2407_cmd.cmd" Settings: "Release"]
+LinkOrder=1
+

@@ -1,0 +1,11 @@
+-z -c -m"./Debug/ADC-CS.map" -o"./Debug/ADC-CS.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\ADC-CS\2407_cmd.cmd"
+"C:\dspproj\ADC-CS\Debug\ADCFuncCS.obj"
+"C:\dspproj\ADC-CS\Debug\ADCmain.obj"
+"C:\dspproj\ADC-CS\Debug\cvectors.obj"
+"C:\dspproj\ADC-CS\Debug\DSP24_Adc.obj"
+"C:\dspproj\ADC-CS\Debug\DSP24_Core.obj"
+"C:\dspproj\ADC-CS\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\ADC-CS\Debug\DSP24_Gpio.obj"
+"C:\dspproj\ADC-CS\Debug\DSP24_Sys.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

@@ -1,0 +1,11 @@
+-z -c -m"./Debug/CAN.map" -o"./Debug/CAN.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\CAN\2407_cmd.cmd"
+"C:\dspproj\CAN\Debug\CANFunc.obj"
+"C:\dspproj\CAN\Debug\CANmain.obj"
+"C:\dspproj\CAN\Debug\cvectors.obj"
+"C:\dspproj\CAN\Debug\DSP24_Can.obj"
+"C:\dspproj\CAN\Debug\DSP24_Core.obj"
+"C:\dspproj\CAN\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\CAN\Debug\DSP24_Gpio.obj"
+"C:\dspproj\CAN\Debug\DSP24_Sys.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

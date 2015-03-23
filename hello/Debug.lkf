@@ -1,0 +1,8 @@
+-z -c -m"./Debug/hello.map" -o"./Debug/hello.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\hello\2407_cmd.cmd"
+"C:\dspproj\hello\Debug\cvectors.obj"
+"C:\dspproj\hello\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\hello\Debug\DSP24_Gpio.obj"
+"C:\dspproj\hello\Debug\DSP24_Sys.obj"
+"C:\dspproj\hello\Debug\hmain.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

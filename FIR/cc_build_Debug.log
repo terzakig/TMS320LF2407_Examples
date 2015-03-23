@@ -1,0 +1,42 @@
+------------------------------  FIR.pjt - Debug  ------------------------------
+[cvectors.asm] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "cvectors.asm"
+<cvectors.asm>
+
+[DSP24_Adc.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Adc.c"
+[dsp24_adc.c]
+
+[DSP24_Core.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Core.c"
+[dsp24_core.c]
+
+[DSP24_DefaultISR.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_DefaultISR.c"
+[dsp24_defaultisr.c]
+
+[DSP24_Ev.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Ev.c"
+[dsp24_ev.c]
+
+[DSP24_Gpio.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Gpio.c"
+[dsp24_gpio.c]
+
+[DSP24_Spi.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Spi.c"
+[dsp24_spi.c]
+
+[DSP24_Sys.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "DSP24_Sys.c"
+[dsp24_sys.c]
+
+[FIRmain.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "FIRmain.c"
+[firmain.c]
+
+[Globals.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "Globals.c"
+[globals.c]
+
+[Peripherals.c] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -g -q -fr"C:/dspproj/FIR/Debug" -d"_DEBUG" -v2xx -@"Debug.lkf" "Peripherals.c"
+[peripherals.c]
+
+[Linking...] "C:\CCStudio_v3.1\C2400\cgtools\bin\dspcl" -@"Debug.lkf"
+<Linking>
+TMS320C24xx COFF Linker                 Version 7.04
+Copyright (c) 1987-2003  Texas Instruments Incorporated 
+
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

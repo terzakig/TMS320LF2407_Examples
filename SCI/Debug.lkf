@@ -1,0 +1,11 @@
+-z -c -m"./Debug/sci.map" -o"./Debug/sci.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\SCI\2407_cmd.cmd"
+"C:\dspproj\SCI\Debug\cvectors.obj"
+"C:\dspproj\SCI\Debug\DSP24_Core.obj"
+"C:\dspproj\SCI\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\SCI\Debug\DSP24_Gpio.obj"
+"C:\dspproj\SCI\Debug\DSP24_Sci.obj"
+"C:\dspproj\SCI\Debug\DSP24_Sys.obj"
+"C:\dspproj\SCI\Debug\DSP24_Uart.obj"
+"C:\dspproj\SCI\Debug\scimain.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

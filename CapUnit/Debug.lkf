@@ -1,0 +1,11 @@
+-z -c -m"./Debug/CapUnit.map" -o"./Debug/CapUnit.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\CapUnit\2407_cmd.cmd"
+"C:\dspproj\CapUnit\Debug\cap1main.obj"
+"C:\dspproj\CapUnit\Debug\cvectors.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_Cap1.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_Core.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_Ev.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_Gpio.obj"
+"C:\dspproj\CapUnit\Debug\DSP24_Sys.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

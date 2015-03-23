@@ -1,0 +1,11 @@
+-z -c -m"./Debug/comp1pwm.map" -o"./Debug/comp1pwm.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\comp1pwm\2407_cmd.cmd"
+"C:\dspproj\comp1pwm\Debug\comp1main.obj"
+"C:\dspproj\comp1pwm\Debug\cvectors.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_Comp1.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_Core.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_Ev.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_Gpio.obj"
+"C:\dspproj\comp1pwm\Debug\DSP24_Sys.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

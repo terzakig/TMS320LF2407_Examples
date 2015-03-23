@@ -1,0 +1,10 @@
+-z -c -m"./Debug/Timer1.map" -o"./Debug/Timer1.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\Timer1\2407_cmd.cmd"
+"C:\dspproj\Timer1\Debug\cvectors.obj"
+"C:\dspproj\Timer1\Debug\DSP24_Core.obj"
+"C:\dspproj\Timer1\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\Timer1\Debug\DSP24_Ev.obj"
+"C:\dspproj\Timer1\Debug\DSP24_Sys.obj"
+"C:\dspproj\Timer1\Debug\DSP24_Timer1.obj"
+"C:\dspproj\Timer1\Debug\T1main.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"

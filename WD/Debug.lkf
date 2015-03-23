@@ -1,0 +1,9 @@
+-z -c -m"./Debug/WD.map" -o"./Debug/WD.out" -w -x -i"C:/CCStudio_v3.1/c2400/cgtools/lib" -v2
+"C:\dspproj\WD\2407_cmd.cmd"
+"C:\dspproj\WD\Debug\cvectors.obj"
+"C:\dspproj\WD\Debug\DSP24_Core.obj"
+"C:\dspproj\WD\Debug\DSP24_DefaultISR.obj"
+"C:\dspproj\WD\Debug\DSP24_Ev.obj"
+"C:\dspproj\WD\Debug\DSP24_Sys.obj"
+"C:\dspproj\WD\Debug\WDmain.obj"
+"C:\CCStudio_v3.1\C2400\cgtools\lib\rts2xx.lib"
